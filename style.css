@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the container horizontally */
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto; /* Centering the container */
+    padding: 20px;
+}
+
+#address {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+#balanceText {
+    font-size: 24px;
+    font-weight: bold;
+    color: #009688; /* Teal color */
+}
+
+button {
+    padding: 12px 24px; /* Increased padding for better UX */
+    margin-top: 10px;
+    background-color: #009688;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px; /* Increased border-radius for more rounded corners */
+    transition: background-color 0.3s ease;
+    font-size: 16px; /* Adjusted font-size for better readability */
+}
+
+button:hover {
+    background-color: #00796b; /* Darker teal on hover */
+}
+
+input {
+    padding: 12px; /* Increased padding for better UX */
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 25px; /* Increased border-radius for more rounded corners */
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px; /* Adjusted font-size for better readability */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
